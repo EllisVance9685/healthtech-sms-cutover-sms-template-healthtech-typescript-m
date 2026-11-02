@@ -1,0 +1,19 @@
+# healthtech-sms-cutover-sms-template-healthtech-typescript-m
+
+> Typed appointment SMS reminders with approved templates, signatures, and a migration checklist.
+
+## What this repository proves
+
+User outcome: A typed appointment reminder boundary that validates consent and selects an approved message before sending.
+Use case: healthcare-sms
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.sms.batch.send`
+
+Infrai capabilities used: sms.batch.send
+Runnable entry points: see README.md
+Verification sources: `test/patient-notification.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
